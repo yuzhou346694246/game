@@ -1,0 +1,65 @@
+<html>
+    <header>
+        <title>Piano</title>
+        <link rel="stylesheet" href="piano.css">
+    </header>
+    <body>
+        <h1>Piano</h1>
+        <!-- Waveform selector -->
+        <p>
+            <label for="soundType">Select a waveform:</label> 
+            <select name="soundType" id="soundType">
+                <option value="triangle" selected>Triangle</option>
+                <option value="sine">Sine</option>
+                <option value="square">Square</option>
+                <option value="sawtooth">Sawtooth</option>
+            </select>
+        </p>
+    <!-- Keyboard placeholder -->
+    <div id="keyboard">
+            <p>C6-B6</p>
+            <div class="row">
+                <div data-key="1" data-frequency="1046.5" data-name="C6">Do</div>
+                <div data-key="2" data-frequency="1174.7" data-name="D6">Re</div>
+                <div data-key="3" data-frequency="1318.5" data-name="E6">Mi</div>
+                <div data-key="4" data-frequency="1396.9" data-name="F6">Fa</div>
+                <div data-key="7" data-frequency="1568" data-name="G6">So</div>
+                <div data-key="8" data-frequency="1760" data-name="A6">La</div>
+                <div data-key="9" data-frequency="1975.5" data-name="B6">Xi</div>
+            </div>
+        <p>C5-B5</p>
+        <div class="row">
+            <div data-key="Q" data-frequency="523.3" data-name="C5">Do</div>
+            <div data-key="W" data-frequency="587.3" data-name="D5">Re</div>
+            <div data-key="E" data-frequency="659.3" data-name="E5">Mi</div>
+            <div data-key="R" data-frequency="698.5" data-name="F5">Fa</div>
+            <div data-key="U" data-frequency="784" data-name="G5">So</div>
+            <div data-key="I" data-frequency="880" data-name="A5">La</div>
+            <div data-key="O" data-frequency="987.8" data-name="B5">Xi</div>
+        </div>
+        <p>自然音C4-B4</p>
+        <div class="row">
+            <div data-key="A" data-frequency="261.6" data-name="C4">Do</div>
+            <div data-key="S" data-frequency="293.7" data-name="D4">Re</div>
+            <div data-key="D" data-frequency="329.6" data-name="E4">Mi</div>
+            <div data-key="F" data-frequency="349.2" data-name="F4">Fa</div>
+            <div data-key="J" data-frequency="392" data-name="G4">So</div>
+            <div data-key="K" data-frequency="440" data-name="A4">La</div>
+            <div data-key="L" data-frequency="493.9" data-name="B4">Xi</div>
+        </div>
+        <p>C3-B3</p>
+        <div class="row">
+            <div data-key="Z" data-frequency="130.8" data-name="C3">Do</div>
+            <div data-key="X" data-frequency="146.8" data-name="D4">Re</div>
+            <div data-key="C" data-frequency="164.8" data-name="E4">Mi</div>
+            <div data-key="V" data-frequency="174.6" data-name="F4">Fa</div>
+            <div data-key="M" data-frequency="196" data-name="G4">So</div>
+            <div data-key="," data-frequency="220" data-name="A4">La</div>
+            <div data-key="." data-frequency="246.9" data-name="B4">Xi</div>
+        </div>
+    </div>
+    <script type="text/javascript" src="piano.js"></script>
+    <div id="test"></div>
+    </body>
+</html>    
+    

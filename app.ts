@@ -86,8 +86,6 @@ function gameloop(){
         shape.draw(ctx);
         // shape.x++;
      }
-    i = i+1;
-    console.log(i); 
 
 }
 

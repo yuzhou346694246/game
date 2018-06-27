@@ -55,8 +55,8 @@ function gameloop1(){
         s = snow_array[i];
         s.draw(ctx);
         let tha = 2*Math.PI*Math.random();
-        let dx = 3*Math.cos(tha);
-        let dy = 3*Math.sin(tha);
+        let dx = Math.abs(3*Math.cos(tha));
+        let dy = Math.abs(3*Math.sin(tha));
         s.x = s.x+dx;
         s.y = s.y+dy;
     }
